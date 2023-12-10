@@ -1,2 +1,2 @@
-let name = prompt('Your name: ');
-document.write('Hello, ' + name + '!<br>');
+let name = prompt('Enter your name:');
+document.querySelector('h1').textContent = 'Hello, ' + name + '!';
